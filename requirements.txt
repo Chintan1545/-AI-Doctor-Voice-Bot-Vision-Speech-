@@ -1,0 +1,9 @@
+groq 
+python-dotenv
+SpeechRecognition 
+pydub 
+pyaudio 
+gTTS 
+gradio     
+elevenlabs 
+streamlit
