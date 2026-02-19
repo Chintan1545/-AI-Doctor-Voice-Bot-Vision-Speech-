@@ -23,6 +23,33 @@ An **AI-powered Doctor Assistant** that can:
 
 ---
 
+## 🧠 How the System Works
+
+1 Voice Input (Patient)
+- The user speaks symptoms through a microphone.
+
+2 Speech-to-Text (STT)
+- The audio is converted into text using the Whisper large model via Groq.
+
+3 Medical Image Input
+- The user uploads a medical image such as a skin condition or injury photo.
+
+4 Vision-Based Analysis
+- A vision-enabled LLaMA model analyzes the image along with the transcribed symptoms.
+
+5 Doctor-Style Response Generation
+- A carefully engineered system prompt ensures the response sounds professional, concise, and human-like.
+
+6 Text-to-Speech (TTS)
+- The final response is converted into realistic speech using ElevenLabs.
+
+7 User Output
+- The user receives:
+  - Transcribed speech
+  - Doctor’s textual response
+  - Spoken audio response
+
+---
 ## 🧱 Project Structure
 
 ```bash
